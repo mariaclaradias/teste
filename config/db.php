@@ -1,5 +1,5 @@
 <?php
-
+/*
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
 // Staging and Production
@@ -15,13 +15,13 @@ $db['default'] = array(
     'cacheon'      =>  false,
     'charset'      =>  'utf8',
     'dbcollat'      =>  'utf8unicodeci',
-);
+);*/
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=db_enade',
-    'username' => 'root',
-    'password' => '',
+    'dsn' => 'mysql:host=192.185.213.226;dbname=bertoldi_maria_clara',
+    'username' => 'bertoldi_maria_c',
+    'password' => 'maria@clara',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
